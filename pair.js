@@ -23,7 +23,7 @@ const {
   jidNormalizedUser,
   downloadContentFromMessage,
   DisconnectReason
-} = require('https://www.npmjs.com/package/baileyz');
+} = require('@whiskeysockets/baileys');
 
 // ---------------- CONFIG ----------------
 
