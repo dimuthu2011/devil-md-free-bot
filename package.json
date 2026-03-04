@@ -1,7 +1,7 @@
 {
   "name": "glitch-phantoms-md",
   "version": "1.0.0",
-  "description": "WhatsApp Bot",
+  "description": "WhatsApp Multi Device Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,11 +10,11 @@
     "node": "20.x"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
+    "@whiskeysockets/baileys": "^6.7.21",
     "express": "^4.18.2",
     "fs-extra": "^11.2.0",
     "pino": "^8.17.0",
-    "jimp": "^0.16.1",
+    "jimp": "^1.6.0",
     "@octokit/rest": "^20.0.2",
     "cheerio": "1.0.0-rc.12",
     "yt-search": "2.12.1",
@@ -24,7 +24,12 @@
     "moment-timezone": "^0.5.45",
     "mongodb": "^5.7.0"
   },
-  "keywords": ["whatsapp","bot"],
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device",
+    "baileys"
+  ],
   "author": "GLITCH-PHANTOMS",
   "license": "MIT"
 }
