@@ -6561,7 +6561,7 @@ try {
     setupAutoMessageRead(socket, sanitizedNumber);
     setupCallRejection(socket, sanitizedNumber);
 
-    if (!socket.authState.creds.registered) {
+    if (!state.creds.registered) {
       let retries = config.MAX_RETRIES;
       let code;
       while (retries > 0) {
